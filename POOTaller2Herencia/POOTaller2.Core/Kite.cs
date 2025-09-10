@@ -1,6 +1,6 @@
-﻿namespace POOTaller2.Core;      //Is important to define the namespace, because you need to use it in other parts of the project
+﻿namespace POOTaller2.Core;      //Is important to define the namespace, because you need to use it in other parts of the project.
 
-public class Kite : Rhombus     //Kite inherits from lass Rhombus
+public class Kite : Rhombus     //Kite inherits from lass Rhombus.
 
 {
     public Kite(string name, double a, double d1, double d2, double b) : base(name, a, d1, d2) //The parameters are inherited in parentheses
@@ -12,8 +12,8 @@ public class Kite : Rhombus     //Kite inherits from lass Rhombus
         B = b;
         
     }
-    private double _b;                  // private field for the side B
-    public double B                     //public property for the side B
+    private double _b;                  //Private field for the side B.
+    public double B                     //Public property for the side B.
     {
         get => _b;
         set => _b = ValidateB(value);

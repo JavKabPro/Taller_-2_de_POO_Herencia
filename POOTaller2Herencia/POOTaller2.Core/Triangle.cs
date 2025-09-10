@@ -1,5 +1,5 @@
-﻿namespace POOTaller2.Core;          //Is important to define the namespace, because you need to use it in other parts of the project
-public class Triangle : Rectangle   //triangle class inherits from Rectangle
+﻿namespace POOTaller2.Core;          //Is important to define the namespace, because you need to use it in other parts of the project.
+public class Triangle : Rectangle   //Triangle class inherits from Rectangle.
 
 {
     public Triangle(string name, double a, double b, double c, double h) : base(name, a, b) //Inherits from rectangle, the parameters 'a' and 'b'
@@ -11,22 +11,22 @@ public class Triangle : Rectangle   //triangle class inherits from Rectangle
         C = c;
         H = h;
     }
-    private double _c;                  //private field for the side C
-    public double C                     //public property for the side C
+    private double _c;                  //Private field for the side C.
+    public double C                     //Public property for the side C.
     {
         get => _c;
-        set => _c = ValidateC(value);   //Method to validate that side C is greater than zero
+        set => _c = ValidateC(value);   //Method to validate that side C is greater than zero.
     }
 
     private double _h;                  //Private field for the height H.
     public double H                     //Public property for the height H.
     {
         get => _h;
-        set => _h = ValidateH(value);   //Method to validate that height H is greater than zero
+        set => _h = ValidateH(value);   //Method to validate that height H is greater than zero.
     }
-    public override double GetArea() => (B * H) / 2;        //Get value of the area
-    public override double GetPerimeter() => (A + B + C);   //Get value of the perimeter
-    private double ValidateC(double c)                      //Method to validate that side C is greater than zero
+    public override double GetArea() => (B * H) / 2;        //Get value of the area.
+    public override double GetPerimeter() => (A + B + C);   //Get value of the perimeter.
+    private double ValidateC(double c)                      //Method to validate that side C is greater than zero.
     {
         if (c <= 0)
         {
@@ -34,7 +34,7 @@ public class Triangle : Rectangle   //triangle class inherits from Rectangle
         }
         return c;
     }
-    private double ValidateH(double h)                      //Method to validate that height H is greater than zero
+    private double ValidateH(double h)                      //Method to validate that height H is greater than zero.
     {
         if (h <= 0)
         {

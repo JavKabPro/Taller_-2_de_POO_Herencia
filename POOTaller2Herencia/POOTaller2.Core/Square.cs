@@ -8,7 +8,7 @@ public class Square : GeometricFigure               //square class inherits from
         Name = name;
         A = a;
     }
-    private double _a;                              //private field for side A
+    private double _a;                              //Private field for side A.
     public double A
     {
         get => _a;
