@@ -3,7 +3,7 @@ namespace POOTaller2.Core;                      //Is important to define the nam
 
 public abstract class GeometricFigure           //abstract class
 {
-    public string? Name { get; set; }           //property name
+    public string Name { get; set; } = null!;          //property name
 
     public abstract double GetArea();           //abstract method to get area
     public abstract double GetPerimeter();      //abstract method to get perimeter

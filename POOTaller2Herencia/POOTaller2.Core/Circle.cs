@@ -16,14 +16,6 @@ public class Circle : GeometricFigure           //circle class inherits from Geo
         Name = name;
         R = r;
     }
-    private double ValidateR(double r)          //Method to validate radius
-    {
-        if (r <= 0)
-        {
-            throw new Exception($"The radius {r} is less or equals than zero, it cannot be.");  
-        }
-        return r;
-    }
     public override double GetArea()            //Override method to calculate thr area
     {
         return Math.PI * Math.Pow(R, 2);
@@ -31,6 +23,14 @@ public class Circle : GeometricFigure           //circle class inherits from Geo
     public override double GetPerimeter()       //Override method to calculate the perimeter
     {
         return 2 * Math.PI * R;
-    } 
-    
+    }
+    private double ValidateR(double r)          //Method to validate radius
+    {
+        if (r <= 0)
+        {
+            throw new Exception($"The radius {r} is less or equals than zero, it cannot be.");
+        }
+        return r;
+    }
+
 }
