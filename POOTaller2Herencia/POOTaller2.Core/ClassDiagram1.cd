@@ -15,35 +15,35 @@
     </TypeIdentifier>
   </Class>
   <Class Name="POOTaller2.Core.Square">
-    <Position X="5.25" Y="5" Width="1.5" />
+    <Position X="5.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAQAAAAAAAAAAAAAAAAAEAAAAAMAAAAAA=</HashCode>
       <FileName>Square.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="POOTaller2.Core.Rhombus">
-    <Position X="7.25" Y="5" Width="1.75" />
+    <Position X="7.25" Y="4.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAAAAAAAAAQAAAAAAEIAAkAEAAAAAA=</HashCode>
       <FileName>Rhombus.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="POOTaller2.Core.Kite">
-    <Position X="9.5" Y="5" Width="1.5" />
+    <Position X="9.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAEAAAAAEAEAAAA=</HashCode>
       <FileName>Kite.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="POOTaller2.Core.Rectangle">
-    <Position X="3" Y="5" Width="1.5" />
+    <Position X="3" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAEAAAAAEAEAAAA=</HashCode>
       <FileName>Rectangle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="POOTaller2.Core.Parallelogram">
-    <Position X="0.5" Y="5.25" Width="1.5" />
+    <Position X="0.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAGEAAAAA=</HashCode>
       <FileName>Parallelogram.cs</FileName>
